@@ -188,123 +188,9 @@ background-color: #dce6ff;
 .site-header-banner-link{
   display: flex;
 }
-/* main-content */
 
-.main-content{
-  flex-grow: 1;
-  padding-bottom: 100px;
-  padding-top: 50px;
-}
-/* News-grid */
-.global-news{
-  width: 797px;
-}
-.news-grid{
-display: flex;
-flex-wrap: wrap;
-}
-.news-grid-item {
-width: 393px;
-margin-left: 10px;
-margin-bottom: 10px;
-margin-left: -10px;
-
-
-}
-.article-card {
-  display: flex;
-  flex-direction: column;
-  background-color: #f6f6f6;
-border-radius: 15px;
-padding: 20px 17px 15px;
-}
-.article-card-title {
-  margin-top: 0;
-  margin-bottom: 10px;
-  font-size: 20px;
-  line-height: 26px;
-  font-weight: 500px;
-}
-.article-card-link {
-  display: inline-block;
-  color: #000;
-  text-decoration: none;
-}
-.article-card-link:hover{
-  color: #7296ec;
-}
-.article-card-link:active{
-opacity: 0,6;
-}
-.article-card-text {
-  margin-top: 0;
-  margin-bottom: 15px;
-}
-.article-card-img {
-  margin-top: auto;
-  display: block;
-  width: 360px;
-  height: 165px;
-  margin-bottom: 15px;
-  border-radius: 10px;
-  object-fit: cover;
-}
-.article-card-footer {
-  display: flex;
-  align-items: center;
-}
-.article-card-source-icon {
-  width: 20px;
-  height: 20px;
-  margin-right: 10px;
-  border-radius: 5px;
-}
-.article-card-source-time {
-  font-size: 12px;
-  line-height: normal;
-  color: #7f7f7f;
-}
-.article-card-source {
-
-}
-.notification-cta {
-  display: flex;
-  justify-content: space-around;
-  align-items: center;
- padding: 25px 70px 25px 25px;
-  background-color: #ffd7ba;
-  margin: 60px 70px;
-}
-.notfication-cta-text {
-  font-style: 20px;
-  line-height: 26px;
-  font-weight: 500;
-  color: #000;
-}
-.global-card-link{
-  display: flex;
-}
-.article-card-horizantal{
-  display: flex;
-  align-items: flex-start;
-}
-.global-card-link{
-  display: flex;
-  align-items: flex-start;
-}
-.news-list {
-width: 797px;
-height: 205px;
-margin-left: 30px;
-
-}
-.news-global h2{
-  margin-left: 40px;
-}
-.news-list-item {
-
-}
 .article-card-horizantal {
+  display: flex;
 }
 .article-card-horizantal-img {
   width: 210;
@@ -346,7 +232,6 @@ margin-left: 30px;
 .news-list-more-button{
 padding: 17px;
 }
-/* layout-sidebar */
 .layout2-1{
   display: flex;
   align-items: flex-start;
@@ -360,8 +245,7 @@ padding: 17px;
 .layout-2-1-sidebar-item:not(:last-child) {
    margin-bottom: 10px;
 }
-
-/* lauput-saidbar */
+lauput-saidbar */
 .layout-sidebar{
   width: 393px;
   margin-right: 10px;
@@ -413,8 +297,8 @@ border-bottom: 1px solid #2d2d2d;
   height: 338;
   object-fit: cover;
   border-radius: 15px;
-  margin-top: -900px;
-  margin-left: 850px;
+  margin-top: -1200px;
+  margin-left: 800px;
 }
 
 
@@ -433,65 +317,47 @@ border-bottom: 1px solid #2d2d2d;
 .sitebarnews-card-link:hover{
   color: #7296ec;
 }
-.sitebarnews-card-link:active{
-opacity: 0,6;
+/* footer-box */
+.box{
+  width: 1440px;
+  height: 356px;
+  background-color: #7297EF;
+  color: #fff;
+
 }
-.site-bar-news-card-source-time {
-  font-size: 13px;
-  line-height: normal;
-  color: #5e5f61;
+.box-img{
+  width: 264px;
+  height: 28px;
+  margin-left: 150px;
+
 }
-.sidebar-ad-link{
+.box-img img{
+  margin-top: 50px;
+
+}
+.box-ul{
+  margin-bottom: 30px;
+}
+
+.box-ul ul{
+  margin-bottom: 30px;
+  text-align: center;
+  list-style-type: none;
+  margin-left: 300px;
+  margin-top: -120px;
+}
+.box-content{
   display: flex;
+  text-align: center;
+
+
 
 }
-.sidebar-ad-img{
-  width: 393px;
-  height: 338px;
-  border-radius: 15px;
-  object-fit: cover;
+hr{
+ width: 998px;
 }
-  /* Site-footer */
-  .box{
-    width: 1440px;
-    height: 356px;
-    background-color: #7297EF;
-    color: #fff;
-
-  }
-  .box-img{
-    width: 264px;
-    height: 28px;
-    margin-left: 150px;
-
-  }
-  .box-img img{
-    margin-top: 50px;
-
-  }
-  .box-ul{
-    margin-bottom: 30px;
-  }
-
-  .box-ul ul{
-    margin-bottom: 30px;
-    text-align: center;
-    list-style-type: none;
-    margin-left: 300px;
-    margin-top: -120px;
-  }
-  .box-content{
-    display: flex;
-    text-align: center;
-
-
-
-  }
-  hr{
-   width: 998px;
-  }
-  .container-icon{
-    text-align: center;
-    margin-top: -100px;
-    margin-left: 150px;
-  }
+.container-icon{
+  text-align: center;
+  margin-top: -100px;
+  margin-left: 150px;
+}
